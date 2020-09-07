@@ -22,5 +22,12 @@ postgres:
 ```
 
 ```yml
-volumes: postgres-data
+volumes:
+  postgres-data:
 ```
+
+## Environment variables
+
+- `POSTGRES_PASSWORD_FILE`
+- `POSTGRES_USER`
+- `POSTGRES_DB`
